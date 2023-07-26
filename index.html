@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Sueldos</title>
+  <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sistemas de Aumentos</h1>
+
+    <form>
+      <div class="input-container">
+        <label for="num1">Ingrese la cantidad:</label>
+        <input type="number" id="num1" placeholder="Ingresa el salario">
+      </div>
+
+    
+      <input type="button" value="Consultar" onclick="Verificar()">
+    </form>
+
+    <div id="result-container">
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="Js.js"></script>
+</body>
+</html>
